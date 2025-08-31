@@ -67,6 +67,7 @@ It also supports manual override via a physical button, with safety debounce and
 
 ```
 automated-light-controller/
+├── assets/ # Device preview
 ├── include/ # All header files
 ├── src/ # Source (.c) files
 ├── platformio.ini # PlatformIO project config
@@ -89,16 +90,21 @@ platformio run
 
 # Upload to device
 platformio run --target upload
+
 Or open in VSCode + PlatformIO IDE and press ▶️ Build & Upload.
 ```
 
-🔧 Configuration
-Predefined ON/OFF times can be updated in code or written to EEPROM through serial or I2C interface extensions (not included here but pluggable).
+- 🔧 **Configuration**
+
+  - EEPROM-backed logic remembers manual overrides across power failures.
+  - Easily updated through serial/I2C in future versions.
 
 📸 Screenshots
+
 <p align="center">
   <img src="assets/device_preview.png" alt="Device Preview" width="500"/>
 </p>
 
-🪪 License
-MIT © Lakmal Weerasinghe
+- 🪪 License
+
+  - MIT © Lakmal Weerasinghe
