@@ -13,7 +13,7 @@
 #include <stdlib.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#include "AVR_TWI.h"
+#include "AVR_twi.h"
 
 // DS3231 I2C address
 #define DS3231_ADDR  0x68

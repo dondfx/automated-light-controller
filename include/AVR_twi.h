@@ -12,7 +12,7 @@
 
 #include <avr/io.h>
 #include <util/atomic.h>
-#include "AVR_UART.h"
+#include "AVR_uart.h"
 
 // Operation result status
 #define TWI_SUCCESS             0x00

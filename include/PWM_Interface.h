@@ -11,7 +11,7 @@
 #define PWM_INTERFACE_H_
 
 #include <stdint.h>
-#include "AVR_PWM.h"
+#include "AVR_pwm.h"
 
 // Green LED brightness (0–255)
 #define GREEN_LED_PWM_VALUE  10

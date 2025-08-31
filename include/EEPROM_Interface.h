@@ -13,7 +13,7 @@
 #include <stdint.h>
 #include "AVR_EEPROM.h"
 #include "RTC_Interface.h"
-#include "AVR_UART.h"
+#include "AVR_uart.h"
 
 // EEPROM entry format: 1-byte state + 3-byte time
 typedef struct {
