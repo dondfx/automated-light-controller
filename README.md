@@ -56,7 +56,7 @@ It also supports manual override via a physical button, with safety debounce and
 
 - **Microcontroller**: ATmega328P  
 - **RTC Module**: DS3231  
-- **LED/PWM Driver**:For visual indicators
+- **LED/PWM Driver**: For visual indicators
 - **Push Button**: Connected to INT1 (PD3)  
 - **Relay/Triac**: For switching the actual light/load  
 - **EEPROM**: Internal to ATmega328P
@@ -65,12 +65,14 @@ It also supports manual override via a physical button, with safety debounce and
 
 ## 📂 Project Structure
 
+```
 automated-light-controller/
 ├── include/ # All header files
 ├── src/ # Source (.c) files
 ├── platformio.ini # PlatformIO project config
 ├── README.md # This file
 └── LICENSE # MIT License
+```
 
 ---
 
@@ -88,6 +90,7 @@ platformio run
 # Upload to device
 platformio run --target upload
 Or open in VSCode + PlatformIO IDE and press ▶️ Build & Upload.
+```
 
 🔧 Configuration
 Predefined ON/OFF times can be updated in code or written to EEPROM through serial or I2C interface extensions (not included here but pluggable).
