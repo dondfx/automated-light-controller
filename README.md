@@ -94,17 +94,15 @@ platformio run --target upload
 Or open in VSCode + PlatformIO IDE and press ▶️ Build & Upload.
 ```
 
-- 🔧 **Configuration**
+## 🔧 **Configuration**
 
   - EEPROM-backed logic remembers manual overrides across power failures.
   - Easily updated through serial/I2C in future versions.
 
-📸 Screenshots
+## 📸 Screenshots
 
 <p align="center">
   <img src="assets/device_preview.png" alt="Device Preview" width="500"/>
 </p>
 
-- 🪪 License
-
-  - MIT © Lakmal Weerasinghe
+🪪 License: MIT © Lakmal Weerasinghe
