@@ -9,7 +9,7 @@
 
 #include "Support_Functions.h"
 #include "RTC_Interface.h"
-#include "AVR_UART.h"
+#include "AVR_uart.h"
 
 //-----------------------------------------------------------------------------
 // Compare two time objects:

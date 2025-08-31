@@ -8,7 +8,7 @@
  */
 
 #include "AVR_rtc.h"
-#include "AVR_UART.h"  // Assuming UART_Initialize() is declared here
+#include "AVR_uart.h"  // Assuming UART_Initialize() is declared here
 
 RTC_Time_Object RTC_Time;
 RTC_Temp_Object RTC_Temp;

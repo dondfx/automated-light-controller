@@ -9,7 +9,7 @@
 
 #include "Triac.h"
 #include "RTC_Interface.h"
-#include "AVR_UART.h"
+#include "AVR_uart.h"
 
 Triac_Object triac;
 

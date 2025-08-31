@@ -8,7 +8,7 @@
  */
 
 #include "Time_Functions.h"
-#include "AVR_UART.h"
+#include "AVR_uart.h"
 
 //-----------------------------------------------------------------------------
 // Return the next upcoming alarm time based on current time and light schedule.

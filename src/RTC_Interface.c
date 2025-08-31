@@ -8,7 +8,7 @@
  */
 
 #include "RTC_Interface.h"
-#include "AVR_UART.h"
+#include "AVR_uart.h"
 
 // Internal function declarations
 static Time_Object _Get_Time(void);

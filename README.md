@@ -1,5 +1,7 @@
 # 🔆 Automated Light Controller
 
+[![PlatformIO CI](https://github.com/dondfx/automated-light-controller/actions/workflows/platformio.yml/badge.svg)](https://github.com/dondfx/automated-light-controller/actions/workflows/platformio.yml)
+
 A power-resilient embedded light controller with RTC-based scheduling and intelligent state restoration.
 
 ---

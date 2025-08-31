@@ -7,7 +7,7 @@
  * AVR UART transmit-only implementation.
  */
 
-#include "AVR_UART.h"
+#include "AVR_uart.h"
 
 void UART_Initialize(void) {
     // Set character size to 8-bit
