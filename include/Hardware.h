@@ -12,7 +12,7 @@
 
 #include "Timer_1.h"
 #include "Switch_External_Interrupt.h"
-#include "lights.h"
+#include "Lights.h"
 
 // Initialize peripherals and restore state
 void Hardware_Initialize(void);
